@@ -337,89 +337,39 @@ padding-bottom: 94px;
 .clients-after-items {
     width: 170px;
     height: 92px;
-    border-radius: 4px;
-    display: block;
-    margin-bottom: 94px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #AFB1B8;
-    box-sizing: border-box;
-    border-radius: 4px;
+    color: #AFB1B8;
 }
-.clients-after-items:hover,
+/* .clients-after-items:hover,
 .clients-after-items:focus{
-    border-color: var(--accent-color);
-}
+    fill: var(--accent-color);
+} */
 
 .clients-link{
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    fill: #AFB1B8;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
 }
 .clients-link:hover,
 .clients-link:focus{
-    fill: var(--accent-color);
+    border-color: var(--accent-color);
 }
-/* .clients-icon{
-    fill: #AFB1B8;
-} */
-/* 
-
-.social-list{
-    display: flex;
-    justify-content: center;
-}
-.social-item{
-    width: 44px;
-    height: 44px;
-    background-color: var(--header-color);
-    border-radius: 50%;
-    display: block;
-}
-.social-item + .social-item{
-    margin-left: 10px;
-}
-.social-link:hover,
-.social-link:focus{
-    background-color: var(--accent-color);
-    border-radius: 50%;
-}
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-    fill: #ffffff;
-}
-.social-icon{
+.clients-icon:hover,
+.clients-icon:focus{
+    color: var(--accent-color);
+} 
+.clients-icon{
     fill: #AFB1B8;
 }
-.social-link{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-
-.section-two-list {
-    display: flex;
-    height: 251px;
-}
-.section-two-item {
-    width: 270px;
-    height: 101px;
-}
-.section-two-item:not(:last-child) {
-    margin-right: 30px;
-}
-.antena-icon:hover,
-.antena-icon:focus {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
     fill: var(--accent-color);
-} */
-
+} 
 
 
 /* ------Footer--------- */
@@ -468,9 +418,7 @@ padding-bottom: 94px;
     display: flex;
     align-items: baseline;
 }
-/* .footer-social{
-    margin-left: 70px;
-} */
+
 .join-list{
     display: flex;
     justify-content: center;
